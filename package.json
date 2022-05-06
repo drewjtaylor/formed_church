@@ -1,0 +1,27 @@
+{
+  "name": "formed_church",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewjtaylor/formed_church.git"
+  },
+  "author": "Andrew Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewjtaylor/formed_church/issues"
+  },
+  "homepage": "https://github.com/drewjtaylor/formed_church#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
