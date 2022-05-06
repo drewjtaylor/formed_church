@@ -1,0 +1,3 @@
+Make the "Book club" link go to a page describing the book club, instead of immediately downloading the guide.
+
+Then on the book club page there could be a download link.
