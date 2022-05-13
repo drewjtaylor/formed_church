@@ -1,17 +1,17 @@
 .jumbotron, .navbar {
-    background-image: linear-gradient(to top left, #17456B, #419FB7 30%, white 90%);
+    background-image: linear-gradient(to bottom right, #17456B, #419FB7 30%, white 90%);
     color:  #F5F6EE;
     font-family: 'Staatliches', cursive;
 }
 
-@media (max-width: 320px) {
-    .jumbotron-icon {
-        font-size: .5rem;
-    }
+
+/* This makes the font-awesome things in the logo size responsively */
+.title-logo {
+    font-size: calc(1.525rem + 6vw)
 }
 
-@media (max-width: 700px) {
-    .jumbotron-icon {
-        font-size: .75rem;
+@media (min-width: 1200px) {
+    .title {
+      font-size: 4rem;
     }
-}
+  }

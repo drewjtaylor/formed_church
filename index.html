@@ -22,11 +22,17 @@
 <body>
 
     <!-- Nav has an icon that stays on the left, then the other nav options have dropdown menus on the right  -->
-    <!-- Experimented with a jumbotron top. The website I'm comparing to at www.bldg28.com only has the navbar, so we'll see
+    <!-- Experimented with a jumbotron top. The website I'm comparing to at www.bldg28.com only has the navbar, so we'll see -->
     <header class="jumbotron jumbotron-fluid mycolorwhite">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 sol-md-2 align-self-center"><img src="img/icon-placeholder.png" class="img-fluid"></div>
+                
+                <!-- This is where the font-awesome thing went weird. Depending on if it's working, the png can be used instead. -->
+                <!-- <div class="col-4 col-sm-3 sol-md-2 align-self-center"><img src="img/icon-placeholder.png" class="img-fluid"></div> -->
+                <div class="col-4 col-sm-3 sol-md-2 align-self-center">
+                    <i class="fa-solid fa-cross title-logo"></i> <i class="fa-solid fa-greater-than title-logo"></i>
+                </div>
+
                 <div class="col">
                     <h1>Formed Church</h1>
                     <h2>Needs subtitle</h2>
@@ -34,11 +40,15 @@
             </div>
         </div>
     </header>
-     -->
+    
 
      <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/icon-placeholder.png" height="30" width="30" /></a>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-cross"></i> <i class="fa-solid fa-greater-than"></i></a>
+            
+            <!-- If the "font-awesome" placeholder logo doesn't work or acts weird, the below icon may work better -->
+            <!-- <a class="navbar-brand" href="#"><img src="img/icon-placeholder.png" height="30" width="30" /></a> -->
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -84,19 +94,22 @@
     <!-- Carousel -->
     <!-- Placed into container element to prevent it from being too big -->
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-wrap="true" data-interval="4000" data-pause="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="img/love-your-neighborhood.jpg">
+        <div class="container pt-3">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-wrap="true" data-interval="4000" data-pause="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/love-your-neighborhood.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/faithless-to-fearless.jpg">
+                </div>
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="img/faithless-to-fearless.jpg">
-              </div>
-            </div>
+          </div>
         </div>
 
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
     </body>
