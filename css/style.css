@@ -1,9 +1,13 @@
-.jumbotron, .navbar {
-    background-image: linear-gradient(to bottom right, #17456B, #419FB7 30%, white 90%);
-    color:  #F5F6EE;
+/* Makes background of jumbotron gradient-colored */
+.jumbotron {
+    background-image: linear-gradient(to bottom right, #1D243B, 20%, #255b69, 80%, #f8d962);
+    color:  #FFF48F;
     font-family: 'Staatliches', cursive;
 }
 
+.navbar {
+    background-color: #1D243B;
+}
 
 /* This makes the font-awesome things in the logo size responsively */
 .title-logo {
@@ -15,3 +19,12 @@
       font-size: 4rem;
     }
   }
+
+
+.nav-bar-link {
+    color: #FFF48F;
+}
+
+.nav-bar-link:hover {
+    color: #f8d962;
+}
