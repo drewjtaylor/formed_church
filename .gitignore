@@ -1,4 +1,5 @@
 node_modules
-greater-than.png
-scribble-cross.png
-palette.png
+palette*
+base.html
+img
+todo-list.txt
