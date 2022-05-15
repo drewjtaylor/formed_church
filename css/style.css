@@ -28,3 +28,14 @@
 .nav-bar-link:hover {
     color: #f8d962;
 }
+
+.diagonal-box {
+    background-color: #1d243B;
+    transform: skewY(-10deg);
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 600px;
+    color: white;
+    z-index: -1;
+}
