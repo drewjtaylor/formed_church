@@ -3,16 +3,13 @@ Then on the book club page there could be a download link.
 
 Each option on the navbar should lead to a new page. Some are still blank
 
-Decide on which footer to use
-
-On the off-change someone views the page at 4K, the diagonal line background accent is much less impressive. This could be made responsive instead.
-
 fix main page image getting giant on small view ports (set to smaller col, then regular col on higher sizes?)
 
 center "Taylormade webdesign at the bottom
 
+The underline tries to show up on the main icon when hovering (like a link). Get rid of that. (but maybe have the color slightly darken, like the navbar)
 
-
+Decide on which footer to use
 
 Final steps:
 
