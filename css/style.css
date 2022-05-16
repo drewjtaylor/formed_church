@@ -36,12 +36,13 @@
     background-color: #1d243B;
     transform: skewY(-10deg);
     position: absolute;
-    top: 100px;
+    top: 150px;
     width: 100%;
-    height: 450px;
+    height: 500px;
     color: white;
     z-index: -1;
 }
+
 
 
 /* These were found on stack overflow to make varying image heights appear as the same heigh in the carousel */
@@ -58,7 +59,7 @@
     object-fit: cover;
 }
 
-/* For making the first letter of a paragraph bigger. Put just the letter in a span with this class. */
+/* For making the first letter of a paragraph bigger. Add "subhead" to the class of the whole elemebt. */
 .subhead::first-letter {
     font-size: 200%;
   }
