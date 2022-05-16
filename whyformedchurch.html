@@ -1,24 +1,120 @@
-<p>
-    "Formed Church" is kind of a weird name. There have been a lot of churches popping up with names like "Renew Church," or "Hope Church."
-    You may also have heard of "First Baptist Church" (although no one really knows who was first.) So why did we pick "Formed Church?"
-    It doesn't flow in regular speech. Some people might be confused becuase we're not associated with <a href="https://www.rca.org/" alt="Link to reformed church in America">reformed theology</a>.
-    It's not as flashy as some church names, and you can't learn much about our beliefs from just our title.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formed Church</title>
 
-<p>So why "Formed Church?"</p>
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- "Staatliches" font from google fonts.-->
+    <!-- font-family: 'Staatliches', cursive; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
-<p>While it doesn't describe our beliefs, it does describe our identity.</p>
+</head>
 
-<p>
-    We chose the name "Formed Church" becuase it implies that we are the result of an act of creation. It also implies care in how we're created, like an artist forming clay.
-</p>
 
-<p>
-    "Formed" also implies a purposeful shape. Whether it's how we sing, what we preach, how we meet as a community, or how we serve our extended community, we want the way we do things to be <em>purposeful</em> in a way that honors God.
-</p>
+<body>
+    <div class="diagonal-box-slant-left"></div>
 
-<p>
-    We are a "Formed Church" because we want to form a community.
-</p>
 
-<p><a href="https://www.biblegateway.com/passage/?search=Psalm%20119%3A73&version=NIV">Psalm 119:73</a> "Your hands made me and formed me; give me understanding to learn your commands. (NIV)</p>
+    <!-- Nav has an icon that stays on the left, then the other nav options have dropdown menus on the right  -->
+    <!-- Experimented with a jumbotron top. The website I'm comparing to at www.bldg28.com only has the navbar, so we'll see -->
+    <header class="jumbotron jumbotron-fluid mycolorwhite mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 sol-md-2 align-self-center">
+                    <i class="fa-solid fa-cross title-logo"></i> <i class="fa-solid fa-greater-than title-logo"></i>
+                </div>
+
+                <div class="col">
+                    <h1>Formed Church</h1>
+                    <h4 class="d-none d-md-block">Christ-centered, Community-focused</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+     <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand nav-bar-link" href="#"><i class="fa-solid fa-cross"></i> <i class="fa-solid fa-greater-than"></i></a>
+            
+            <!-- If the "font-awesome" placeholder logo doesn't work or acts weird, the below icon may work better -->
+            <!-- <a class="navbar-brand" href="#"><img src="img/icon-placeholder.png" height="30" width="30" /></a> -->
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar-link" href="#" role="button" data-toggle="dropdown">
+                          Who we are
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="whyformedchurch.html">Why "Formed Church?"</a>
+                            <a class="dropdown-item" href="staff.html">Leadership & Staff</a>
+                            <a class="dropdown-item" href="#">What We Believe</a>
+                            <a class="dropdown-item" href="#">Our Mission</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar-link" href="#" role="button" data-toggle="dropdown">
+                          Let's Connect
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Worship Gatherings</a>
+                          <a class="dropdown-item" href="#">Volunteer</a>
+                          <a class="dropdown-item" href="#">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-bar-link" href="#" role="button" data-toggle="dropdown">
+                          Resources
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="That-Man-Called-Jesus.pdf"target="_blank">Book Club</a>
+                          <a class="dropdown-item" href="https://www.biblegateway.com/" target="_blank">Read the Bible Online</a>
+                          <a class="dropdown-item" href="https://assistcx.org/" target="_blank">Assist Church Expansion</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- diagonal background -->
+
+
+<div class="container text-light bg-dark py-5">
+    <p>
+        "Formed Church" is kind of a weird name. There have been a lot of churches popping up with names like "Renew Church," or "Hope Church."
+        Every town has a "First Baptist Church" (although no one really knows who was first.) So why did we pick "Formed Church?"
+        It doesn't flow in regular speech. Some people might be confused becuase we're not associated with <a href="https://www.rca.org/" alt="Link to reformed church in America">reformed theology</a>.
+        It's not as flashy as some church names, and you can't learn much about our beliefs from just our title.
+    </p>
+    
+    <p>So why "Formed Church?"</p>
+    
+    <p>
+        We chose the name "Formed Church" becuase it implies that we are the result of an act of creation. It also implies care in how we're created, like an artist forming clay.
+    </p>
+    
+    <p>
+        "Formed" also implies a purposeful shape. Whether it's how we sing, what we preach, how we meet as a community, or how we serve our extended community, we want the way we do things to be <em>purposeful</em> in a way that honors God.
+    </p>
+    
+    <p>
+        We are a "Formed Church" because we want to form a community.
+    </p>
+    
+    <p><a href="https://www.biblegateway.com/passage/?search=Psalm%20119%3A73&version=NIV">Psalm 119:73</a> "Your hands made me and formed me; give me understanding to learn your commands. (NIV)</p>
+</div>
