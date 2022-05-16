@@ -11,7 +11,7 @@
 
 /* This makes the font-awesome things in the logo behave responsively */
 .title-logo {
-    font-size: calc(1.525rem + 6vw)
+    font-size: calc(1.525rem + 5vw)
 }
 
 @media (min-width: 1200px) {
@@ -34,7 +34,7 @@
 /* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
     background-color: #1d243B;
-    transform: skewY(-10deg);
+    transform: skewY(-8deg);
     position: absolute;
     top: 150px;
     width: 100%;
