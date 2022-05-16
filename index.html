@@ -111,13 +111,13 @@
               </div>
           </div>
 
-          <div class="row my-5 py-5 border-top align-items-center">
+          <div class="row my-5 py-5 border-top align-items-center fade-in">
             <div class="col-md-3"><img src="img/icon-placeholder.png" class="img-fluid" alt=""></div>
             <div class="col-md-9 subhead display-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eius.
             </div>
           </div>
 
-          <div class="row my-5 py-5 border-top align-items-center">
+          <div class="row my-5 py-5 border-top align-items-center fade-in">
             <div class="col-md-9 subhead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia id perspiciatis eveniet nemo consequuntur, debitis exercitationem nam! Ut illo omnis blanditiis. Explicabo ad nesciunt vero quibusdam nemo velit debitis, deleniti dolores obcaecati tempora maxime numquam exercitationem temporibus culpa animi dolore eaque quaerat nisi nihil dignissimos. Pariatur ex corporis odit?
             </div>
             <div class="col-md-3"><i class="fa-solid fa-people-roof title-logo"></i></div>
@@ -168,29 +168,6 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        
-        <!-- Trying to get appear animations on some divs. -->
-        <!-- Reference: https://www.youtube.com/watch?v=huVJW23JHKQ -->
-        <!-- <script>
-            const faders = document.querySelectorAll('.fade-in');
-            const appearOnScroll = new IntersectionObserver
-            const appearOptions = {
-                threshold: 1,
-                rootMargin: "0px 0px -200px 0px"
-            }
-            (function (entries, appearOnScroll) {
-                entries.forEach(entry => {
-                    if (!entry.isIntersecting) {
-                        return;
-                    } else {
-                        entry.target.classList.add('appear');
-                        appearOnScroll.unobserve(entry.target);
-                    }
-                })
-            }, appearoptions)
+        <script src="js/intersection-observer.js"></script>
 
-            faders.forEach(fader => {
-                appearOnScroll.observe(fader);
-            })
-        </script> -->
     </body>
