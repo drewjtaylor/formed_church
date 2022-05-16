@@ -9,6 +9,17 @@
     background-color: #1D243B;
 }
 
+/* Custom nav-bar text color */
+.nav-bar-link {
+    color: #FFF48F;
+}
+
+/* Navbar drop down menus are inverse of navbar */
+.navbar-dropdown-inverse {
+    background-color: #FFF484;
+    color: #1D243B;
+}
+
 /* This makes the font-awesome things in the logo behave responsively */
 .title-logo {
     font-size: calc(1.525rem + 5vw)
@@ -19,11 +30,6 @@
       font-size: 4rem;
     }
   }
-
-/* Custom nav-bar text color */
-.nav-bar-link {
-    color: #FFF48F;
-}
 
 /* Darkens the links on hover to be a little more intuitive what's clickable/activ */
 .nav-bar-link:hover {
