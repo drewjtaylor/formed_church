@@ -67,10 +67,11 @@
 
 
 /* For making elements fade in on scroll using intersection observer*/
+/* Make sure the js is linked as well for this to work */
 /* Reference: https://www.youtube.com/watch?v=huVJW23JHKQ */
 .fade-in {
     opacity: 0%;
-    transition: opacity 250ms ease-in;
+    transition: opacity 300ms ease-in;
 }
 .fade-in.appear {
     opacity: 1;
