@@ -5,7 +5,7 @@ const faders = document.querySelectorAll('.fade-in');
 
 const appearOptions = {
     root: null, // This is the default
-    threshold: 1.00, // How much of the element has to be visible before firing? (as a percent, 0 --> 1)
+    threshold: 0.75, // How much of the element has to be visible before firing? (as a percent, 0 --> 1)
     rootMargin: "0px 0px -200px 0px"
 }
 
