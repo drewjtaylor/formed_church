@@ -9,7 +9,11 @@ center "Taylormade webdesign at the bottom
 
 The underline tries to show up on the main icon when hovering (like a link). Get rid of that. (but maybe have the color slightly darken, like the navbar)
 
+Carousel on main page looks terrible on small viewports
+
 Decide on which footer to use
+
+Phone number in footer does a weird thing at certain viewport widths
 
 Final steps:
 
