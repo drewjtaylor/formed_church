@@ -9,7 +9,7 @@
     background-color: #1D243B;
 }
 
-/* This makes the font-awesome things in the logo size responsively */
+/* This makes the font-awesome things in the logo behave responsively */
 .title-logo {
     font-size: calc(1.525rem + 6vw)
 }
@@ -20,15 +20,18 @@
     }
   }
 
-
+/* Custom nav-bar text color */
 .nav-bar-link {
     color: #FFF48F;
 }
 
+/* Darkens the links on hover to be a little more intuitive what's clickable/activ */
 .nav-bar-link:hover {
     color: #f8d962;
 }
 
+
+/* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
     background-color: #1d243B;
     transform: skewY(-10deg);
@@ -42,6 +45,7 @@
 
 
 /* These were found on stack overflow to make varying image heights appear as the same heigh in the carousel */
+/* Without this, the images were different heights and the whole page would shift when it rotated */
 /* https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows */
 .carousel-item{
     width: 100%; /*width you want*/
@@ -53,3 +57,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* For making the first letter of a paragraph bigger. Put just the letter in a span with this class. */
+.subhead::first-letter {
+    font-size: 200%;
+  }
