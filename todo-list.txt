@@ -3,6 +3,8 @@ Then on the book club page there could be a download link.
 
 Each option on the navbar should lead to a new page. Some are still blank
 
+Make carousel full-width. (container-fluid?)
+
 fix main page image getting giant on small view ports (set to smaller col, then regular col on higher sizes?)
 
 center "Taylormade webdesign at the bottom
