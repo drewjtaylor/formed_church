@@ -20,6 +20,11 @@
     color: #1D243B;
 }
 
+/* Darkens the links on hover to be a little more intuitive what's clickable/activ */
+.nav-bar-link:hover {
+    color: #f8d962;
+}
+
 /* This makes the font-awesome things in the logo behave responsively */
 .title-logo {
     font-size: calc(1.525rem + 5vw)
@@ -30,12 +35,6 @@
       font-size: 4rem;
     }
   }
-
-/* Darkens the links on hover to be a little more intuitive what's clickable/activ */
-.nav-bar-link:hover {
-    color: #f8d962;
-}
-
 
 /* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
@@ -48,7 +47,6 @@
     color: white;
     z-index: -1;
 }
-
 
 
 /* These were found on stack overflow to make varying image heights appear as the same heigh in the carousel */
@@ -65,11 +63,20 @@
     object-fit: cover;
 }
 
-/* For making the first letter of a paragraph bigger. Add "subhead" to the class of the whole elemebt. */
+/* These cause the carousel to not take up space in the page, allowing the next text to appear behind it. */
+.carousel-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.parent {
+    position:relative
+}
+
+/* For making the first letter of a paragraph bigger. Add "subhead" to the class of the whole element. */
 .subhead::first-letter {
     font-size: 200%;
   }
-
 
 
 /* For making elements fade in on scroll using intersection observer*/
