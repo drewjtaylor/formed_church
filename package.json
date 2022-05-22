@@ -6,12 +6,12 @@
     "scripts": {
         "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
         "clean": "rimraf dist",
-        "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+        "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts && copyfiles -f node_modules/@fortawesome/fontawesome-free/css/* dist/fonts",
         "imagemin": "imagemin img/* -o dist/img",
         "lite": "lite-server",
         "start": "npm run watch:all",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin staff.html -d dist --htmlmin -o dist/staff.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin whyformedchurch.html -d dist --htmlmin -o dist/whyformedchurch.html",
+        "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin staff.html -d dist --htmlmin -o dist/staff.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin whyformedchurch.html -d dist --htmlmin -o dist/whyformedchurch.html && usemin js/intersection-observer.js -d dist -o dist/js/intersection-observer.js",
         "scss": "node-sass -o css/ css/",
         "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
         "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
