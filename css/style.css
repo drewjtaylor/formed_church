@@ -1,95 +1,85 @@
 /* Makes background of jumbotron gradient-colored */
 .jumbotron {
-    background-image: linear-gradient(to bottom right, #1D243B, 20%, #255b69, 80%, #f8d962);
-    color:  #FFF48F;
-    font-family: 'Staatliches', cursive;
-}
+  background-image: linear-gradient(to bottom right, #1D243B, 20%, #255b69, 80%, #f8d962);
+  color: #FFF48F;
+  font-family: 'Staatliches', cursive; }
 
 .navbar {
-    background-color: #1D243B;
-}
+  background-color: #1D243B; }
 
 /* Custom nav-bar text color */
 .nav-bar-link {
-    color: #FFF48F;
-}
+  color: #FFF48F; }
 
 /* Navbar drop down menus are inverse of navbar */
 .navbar-dropdown-inverse {
-    background-color: #FFF484;
-    color: #1D243B;
-}
+  background-color: #FFF48F;
+  color: #1D243B; }
 
 /* Darkens the links on hover to be a little more intuitive what's clickable/activ */
 .nav-bar-link:hover {
-    color: #f8d962;
-}
+  color: #f8d962; }
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+  background-color: #255b69;
+  color: #FFF48F; }
 
 /* This makes the font-awesome things in the logo behave responsively */
 .title-logo {
-    font-size: calc(1.525rem + 5vw)
-}
+  font-size: calc(1.525rem + 5vw); }
 
 @media (min-width: 1200px) {
-    .title {
-      font-size: 4rem;
-    }
-  }
+  .title {
+    font-size: 4rem; } }
 
 /* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
-    background-color: #1d243B;
-    transform: skewY(-8deg);
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    height: 500px;
-    color: white;
-    z-index: -1;
-}
-
+  background-color: #1D243B;
+  transform: skewY(-8deg);
+  position: absolute;
+  top: 1500px;
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #1D243B, 80%, white); }
 
 /* These were found on stack overflow to make varying image heights appear as the same heigh in the carousel */
 /* Without this, the images were different heights and the whole page would shift when it rotated */
 /* https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows */
-.carousel-item{
-    width: 100%; /*width you want*/
-    height: 500px; /*height you want*/
-    overflow: hidden;
-}
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+.carousel-item {
+  width: 100%;
+  /*width you want*/
+  height: 500px;
+  /*height you want*/
+  overflow: hidden; }
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 /* These cause the carousel to not take up space in the page, allowing the next text to appear behind it. */
 .carousel-wrapper {
-    position: absolute;
-    width: 100%;
-}
+  position: absolute;
+  width: 100%; }
 
 .parent {
-    position:relative
-}
+  position: relative; }
 
 /* For making the first letter of a paragraph bigger. Add "subhead" to the class of the whole element. */
 .subhead::first-letter {
-    font-size: 200%;
-  }
-
+  font-size: 200%; }
 
 /* For making elements fade in on scroll using intersection observer*/
 /* Make sure the js is linked as well for this to work */
 /* Reference: https://www.youtube.com/watch?v=huVJW23JHKQ */
 .fade-in {
-    opacity: 0;
-    position: relative;
-    right: 100px;
-    transition: all 500ms ease-in;
-}
+  opacity: 0;
+  position: relative;
+  right: 100px;
+  transition: all 500ms ease-in; }
+
 .fade-in.appear {
-    opacity: 1;
-    position: relative;
-    right: 0px;
-}
+  opacity: 1;
+  position: relative;
+  right: 0px; }

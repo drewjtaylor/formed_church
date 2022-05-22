@@ -1,28 +1,43 @@
+$primary-background: #1D243B;
+$primary-background-light: #2C3659;
+$secondary-color: #255b69;
+$primary-letter-color: #FFF48F;
+$primary-letter-color-dark: #f8d962;
+
+
+
 /* Makes background of jumbotron gradient-colored */
 .jumbotron {
-    background-image: linear-gradient(to bottom right, #1D243B, 20%, #255b69, 80%, #f8d962);
-    color:  #FFF48F;
+    background-image: linear-gradient(to bottom right, $primary-background, 20%, $secondary-color, 80%, $primary-letter-color-dark);
+    color:  $primary-letter-color;
     font-family: 'Staatliches', cursive;
 }
 
 .navbar {
-    background-color: #1D243B;
+    background-color: $primary-background;
 }
 
 /* Custom nav-bar text color */
 .nav-bar-link {
-    color: #FFF48F;
+    color: $primary-letter-color;
 }
 
 /* Navbar drop down menus are inverse of navbar */
 .navbar-dropdown-inverse {
-    background-color: #FFF484;
-    color: #1D243B;
+    background-color: $primary-letter-color;
+    color: $primary-background;
 }
 
 /* Darkens the links on hover to be a little more intuitive what's clickable/activ */
 .nav-bar-link:hover {
-    color: #f8d962;
+    color: $primary-letter-color-dark;
+}
+
+.navbar {
+    .dropdown-item:focus, .dropdown-item:hover {
+        background-color: $secondary-color;
+        color: $primary-letter-color;
+    }
 }
 
 /* This makes the font-awesome things in the logo behave responsively */
@@ -38,14 +53,14 @@
 
 /* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
-    background-color: #1d243B;
+    background-color: $primary-background;
     transform: skewY(-8deg);
     position: absolute;
-    top: 150px;
+    top: 1500px;
     width: 100%;
     height: 500px;
-    color: white;
     z-index: -1;
+    background-image: linear-gradient(to bottom, $primary-background, 80%, white);
 }
 
 
