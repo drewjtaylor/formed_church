@@ -19,4 +19,12 @@ Under the jumbotron is a navbar that sticks to the top of the viewport as the us
 
 The content of the home page includes a carousel slide-show that will show pictures from the church, as well as brief blurbs about the church.
 
-### 
+### Contact Us
+
+On the contac page, I learned a valuable lesson--sometimes the bells and whistles are just distracting, and a simple design is best.
+
+At one point I had a version of this page where there were background diagonal colors, and a lightened box behind the form to make it stand out. At the end of the day, it looked worse than just a white background with a tried-and-true bootstrap form (not to mention the extra work.)
+
+The main thing to remember here is to visualize what you want before you get in too deep--and if you can't, then it might be best to just keep it simple!
+
+Design elements aside, it is a simple bootstrap form with added checkboxes so the user can designate what kinds of communication they want or prefer.
