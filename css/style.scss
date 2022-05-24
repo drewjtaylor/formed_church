@@ -4,7 +4,7 @@ $secondary-color: #255b69;
 $primary-letter-color: #FFF48F;
 $primary-letter-color-dark: #f8d962;
 
-// Created sassy text classes
+// Created sassy text classes based on the palette above
 .text-primary-background {
     color: $primary-background;
 }
@@ -21,6 +21,23 @@ $primary-letter-color-dark: #f8d962;
     color: $primary-letter-color-dark;
 }
 
+// Created background classes for palette above
+.bg-primary-background {
+    color: $primary-background;
+}
+.bg-primary-background-light {
+    color: $primary-background-light;
+}
+.bg-secondary-color {
+    color: $secondary-color;
+}
+.bg-primary-letter-color {
+    color: $primary-letter-color;
+}
+.bg-primary-letter-color-dark {
+    color: $primary-letter-color-dark;
+}
+
 
 // Stops jumbotron font-awesome icon from underlining on hover because it's a link
 .jumbotron {
@@ -33,11 +50,21 @@ $primary-letter-color-dark: #f8d962;
 /* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
     background-color: $primary-background;
-    transform: skewY(-3deg);
+    transform: skewY(-4deg);
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 850px;
+    height: 900px;
+    z-index: -1;
+}
+
+.diagonal-box-slant-left-short {
+    background-color: $primary-background;
+    transform: skewY(-4deg);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 450px;
     z-index: -1;
 }
 

@@ -13,6 +13,21 @@
 .text-primary-letter-color-dark {
   color: #f8d962; }
 
+.bg-primary-background {
+  color: #1D243B; }
+
+.bg-primary-background-light {
+  color: #2C3659; }
+
+.bg-secondary-color {
+  color: #255b69; }
+
+.bg-primary-letter-color {
+  color: #FFF48F; }
+
+.bg-primary-letter-color-dark {
+  color: #f8d962; }
+
 .jumbotron a {
   color: inherit;
   text-decoration: none; }
@@ -20,11 +35,20 @@
 /* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
 .diagonal-box-slant-left {
   background-color: #1D243B;
-  transform: skewY(-3deg);
+  transform: skewY(-4deg);
   position: absolute;
   top: 0px;
   width: 100%;
-  height: 850px;
+  height: 900px;
+  z-index: -1; }
+
+.diagonal-box-slant-left-short {
+  background-color: #1D243B;
+  transform: skewY(-4deg);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 450px;
   z-index: -1; }
 
 /* Makes background of jumbotron gradient-colored */
