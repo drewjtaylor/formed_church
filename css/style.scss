@@ -4,7 +4,23 @@ $secondary-color: #255b69;
 $primary-letter-color: #FFF48F;
 $primary-letter-color-dark: #f8d962;
 
+.jumbotron {
+    a {
+        color: inherit; 
+        text-decoration: none
+    }
+}
 
+/* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
+.diagonal-box-slant-left {
+    background-color: $primary-background;
+    transform: skewY(-3deg);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 850px;
+    z-index: -1;
+}
 
 /* Makes background of jumbotron gradient-colored */
 .jumbotron {
@@ -51,16 +67,6 @@ $primary-letter-color-dark: #f8d962;
     }
   }
 
-/* Made this to style the page a little bit. It essentially makes a skewed box behind everything else at the top. */
-.diagonal-box-slant-left {
-    background-color: $primary-background;
-    transform: skewY(-10deg);
-    position: absolute;
-    top: 300px;
-    width: 100%;
-    height: 700px;
-    z-index: -1;
-}
 
 
 /* These were found on stack overflow to make varying image heights appear as the same heigh in the carousel */
@@ -68,7 +74,7 @@ $primary-letter-color-dark: #f8d962;
 /* https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows */
 .carousel-item{
     width: 100%; /*width you want*/
-    height: 500px; /*height you want*/
+    height: 600px; /*height you want*/
     overflow: hidden;
 }
 .carousel-item img{
@@ -78,11 +84,12 @@ $primary-letter-color-dark: #f8d962;
 }
 
 /* These cause the carousel to not take up space in the page, allowing the next text to appear behind it. */
-.carousel-wrapper {
-    position: absolute;
-    width: 100%;
-    z-index: 0;
-}
+// I ended up deciding I didn't like the look of it. If later this is preferred, wrap the entire carousel in a div.carousel-wrapper
+// .carousel-wrapper {
+//     position: absolute;
+//     width: 100%;
+//     z-index: 0;
+// }
 
 
 /* For making the first letter of a paragraph bigger. Add "subhead" to the class of the whole element. */
@@ -104,4 +111,22 @@ $primary-letter-color-dark: #f8d962;
     opacity: 1;
     position: relative;
     right: 0px;
+}
+
+
+
+// Dark box background
+.dark-box {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+// Light box background
+.light-box {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-label {
+    font-weight: bold;
 }
