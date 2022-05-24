@@ -4,6 +4,25 @@ $secondary-color: #255b69;
 $primary-letter-color: #FFF48F;
 $primary-letter-color-dark: #f8d962;
 
+// Created sassy text classes
+.text-primary-background {
+    color: $primary-background;
+}
+.text-primary-background-light {
+    color: $primary-background-light;
+}
+.text-secondary-color {
+    color: $secondary-color;
+}
+.text-primary-letter-color {
+    color: $primary-letter-color;
+}
+.text-primary-letter-color-dark {
+    color: $primary-letter-color-dark;
+}
+
+
+// Stops jumbotron font-awesome icon from underlining on hover because it's a link
 .jumbotron {
     a {
         color: inherit; 
@@ -117,7 +136,7 @@ $primary-letter-color-dark: #f8d962;
 
 // Dark box background
 .dark-box {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 

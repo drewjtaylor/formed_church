@@ -1,3 +1,18 @@
+.text-primary-background {
+  color: #1D243B; }
+
+.text-primary-background-light {
+  color: #2C3659; }
+
+.text-secondary-color {
+  color: #255b69; }
+
+.text-primary-letter-color {
+  color: #FFF48F; }
+
+.text-primary-letter-color-dark {
+  color: #f8d962; }
+
 .jumbotron a {
   color: inherit;
   text-decoration: none; }
@@ -81,7 +96,7 @@
   right: 0px; }
 
 .dark-box {
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .light-box {
   background-color: rgba(255, 255, 255, 0.8); }
