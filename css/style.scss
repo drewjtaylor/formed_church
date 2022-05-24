@@ -23,19 +23,19 @@ $primary-letter-color-dark: #f8d962;
 
 // Created background classes for palette above
 .bg-primary-background {
-    color: $primary-background;
+    background-color: $primary-background;
 }
 .bg-primary-background-light {
-    color: $primary-background-light;
+    background-color: $primary-background-light;
 }
 .bg-secondary-color {
-    color: $secondary-color;
+    background-color: $secondary-color;
 }
 .bg-primary-letter-color {
-    color: $primary-letter-color;
+    background-color: $primary-letter-color;
 }
 .bg-primary-letter-color-dark {
-    color: $primary-letter-color-dark;
+    background-color: $primary-letter-color-dark;
 }
 
 

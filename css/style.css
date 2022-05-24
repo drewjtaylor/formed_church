@@ -14,19 +14,19 @@
   color: #f8d962; }
 
 .bg-primary-background {
-  color: #1D243B; }
+  background-color: #1D243B; }
 
 .bg-primary-background-light {
-  color: #2C3659; }
+  background-color: #2C3659; }
 
 .bg-secondary-color {
-  color: #255b69; }
+  background-color: #255b69; }
 
 .bg-primary-letter-color {
-  color: #FFF48F; }
+  background-color: #FFF48F; }
 
 .bg-primary-letter-color-dark {
-  color: #f8d962; }
+  background-color: #f8d962; }
 
 .jumbotron a {
   color: inherit;
