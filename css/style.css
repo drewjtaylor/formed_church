@@ -48,17 +48,13 @@
   position: absolute;
   top: 0px;
   width: 100%;
-  height: 875px;
+  height: 880px;
   z-index: -1; }
 
-.diagonal-box-slant-left-short {
-  background-color: #1D243B;
-  transform: skewY(-4deg);
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  height: 450px;
-  z-index: -1; }
+@media (min-width: 1400px) {
+  .diagonal-box-slant-left {
+    transform: skewY(-2deg);
+    height: 970px; } }
 
 /* Makes background of jumbotron gradient-colored */
 .jumbotron {
