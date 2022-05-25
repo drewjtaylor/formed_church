@@ -28,3 +28,9 @@ At one point I had a version of this page where there were background diagonal c
 The main thing to remember here is to visualize what you want before you get in too deep--and if you can't, then it might be best to just keep it simple!
 
 Design elements aside, it is a simple bootstrap form with added checkboxes so the user can designate what kinds of communication they want or prefer.
+
+### Fun extras
+
+I stumbled upon what a "favicon" is when I noticed my browser was failing to load it. Apparently that's what the thing up on your browswer tab is called when a site has a custom image. There are several "favicon" creators out there that help easily make a small image that's just the right size.
+
+I also accidentally changed a font to be slightly darker at one point. I ended up using this with the navbar links on "hover," to give a little visual feedback to what is being selected. This is another one of those small details I never actively thought about, but good websites frequently incorporate into their design.
