@@ -15,11 +15,15 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- endbuild -->
     
-    <!-- "Staatliches" font from google fonts.-->
+    <!--Google fonts: "staatliches", "Lemonada", "Caveat"-->
+    <!-- font-family: 'Caveat', cursive; -->
+    <!-- font-family: 'Lemonada', cursive; -->
     <!-- font-family: 'Staatliches', cursive; -->
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lemonada&family=Staatliches&display=swap" rel="stylesheet">
 
     <!-- Favicon loaded -->
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -34,16 +38,15 @@
 
     <!-- Nav has an icon that stays on the left, then the other nav options have dropdown menus on the right  -->
     <!-- Experimented with a jumbotron top. The website I'm comparing to at www.bldg28.com only has the navbar, so we'll see -->
-    <header class="jumbotron jumbotron-fluid mb-0">
+    <header class="jumbotron jumbotron-fluid mb-0 primary-font">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 sol-md-2 align-self-center">
+                <div class="col-4 col-sm-3 align-self-center">
                     <a href="index.html"><i class="fa-solid fa-cross title-logo"></i> <i class="fa-solid fa-greater-than title-logo"></i></a>
                 </div>
-
                 <div class="col">
                     <h1>Formed Church</h1>
-                    <h4 class="d-none d-md-block">Christ-centered, Community-focused</h2>
+                    <h4 class="d-none d-sm-block">Christ-centered, Community-focused</h2>
                 </div>
             </div>
         </div>
@@ -101,26 +104,32 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" data-wrap="true" data-interval="3000" data-pause="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img class="d-block w-100" src="img/love-your-neighborhood.jpg">
+            <img class="d-block w-100" src="img/formation-symbol-beach.jpg" alt="abstract blocks in the shape of an F">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="img/faithless-to-fearless.jpg">
+            <img class="d-block w-100" src="img/love-your-neighborhood.jpg" alt="painted sign that says love your neighborhood">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="img/faithless-to-fearless.jpg" alt="a sign that says faithless to fearless">
             </div>
         </div>
     </div>
 
     <!-- Main content -->
     <div class="container">
-        <div class="row my-5 py-5 border-top align-items-center fade-in">
-            <div class="col-md-3"><img src="img/icon-placeholder.png" class="img-fluid" alt=""></div>
-            <div class="col-md-9 subhead display-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eius.
-            </div>
+        <div class="row my-5 py-5 align-items-center fade-in">
+            <div class="col-3"><img src="img/icon-placeholder.png" class="img-fluid" alt="a cross with the symbol for greater than"></div>
+            <h1 class="col-9 subhead style-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eius.
+            </h1>
         </div>
         
         <div class="row my-5 py-5 border-top align-items-center fade-in">
-            <div class="col-md-9 subhead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia id perspiciatis eveniet nemo consequuntur, debitis exercitationem nam! Ut illo omnis blanditiis. Explicabo ad nesciunt vero quibusdam nemo velit debitis, deleniti dolores obcaecati tempora maxime numquam exercitationem temporibus culpa animi dolore eaque quaerat nisi nihil dignissimos. Pariatur ex corporis odit?
+            <div class="col-md-9 subhead order-sm-2 order-md-1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia id perspiciatis eveniet nemo consequuntur, debitis exercitationem nam! Ut illo omnis blanditiis. Explicabo ad nesciunt vero quibusdam nemo velit debitis, deleniti dolores obcaecati tempora maxime numquam exercitationem temporibus culpa animi dolore eaque quaerat nisi nihil dignissimos. Pariatur ex corporis odit?
             </div>
-            <div class="col-md-3"><i class="fa-solid fa-people-roof title-logo"></i></div>
+            <div class="col col-md-3 text-center order-sm-1 order-md-2">
+                <i class="fa-solid fa-people-roof title-logo"></i>
+            </div>
         </div>
     </div>
 
@@ -130,7 +139,7 @@
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#"> Home</a></li>
+                        <li><a href="index.html"> Home</a></li>
                         <li><a href="/aboutus.html"> About</a></li>
                         <li><a href="/contactus.html"> Contact</a></li>
                     </ul>
@@ -151,7 +160,7 @@
     </footer>
     
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-center text-muted py-3 border-top">
+        <footer class="d-flex flex-wrap justify-content-center pb-3 text-muted">
             <div class="col-12">
             &copy; 2022, <a href="#" style="color: inherit;">Taylormade Web Design, Inc</a>
             </div>

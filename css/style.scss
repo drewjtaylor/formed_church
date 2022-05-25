@@ -4,6 +4,10 @@ $secondary-color: #255b69;
 $primary-letter-color: #FFF48F;
 $primary-letter-color-dark: #f8d962;
 
+$primary-font: 'Staatliches', cursive;
+$style-font: 'Lemonada', cursive;
+$tertiary-font: 'Caveat', cursive;
+
 // Created sassy text classes based on the palette above
 .text-primary-background {
     color: $primary-background;
@@ -38,12 +42,21 @@ $primary-letter-color-dark: #f8d962;
     background-color: $primary-letter-color-dark;
 }
 
-
+//  Created google font-family classes
+.primary-font {
+    font-family: $primary-font
+}
+.style-font {
+    font-family: $style-font
+}
+.tertiary-font {
+    font-family: $tertiary-font;
+}
 // Stops jumbotron font-awesome icon from underlining on hover because it's a link
 .jumbotron {
     a {
         color: inherit; 
-        text-decoration: none
+        text-decoration: none;
     }
 }
 
@@ -54,10 +67,11 @@ $primary-letter-color-dark: #f8d962;
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 900px;
+    height: 875px;
     z-index: -1;
 }
 
+// Pages without the big picture at the top may want a shorter "diagonal line" background
 .diagonal-box-slant-left-short {
     background-color: $primary-background;
     transform: skewY(-4deg);
@@ -72,7 +86,6 @@ $primary-letter-color-dark: #f8d962;
 .jumbotron {
     background-image: linear-gradient(to bottom right, $primary-background, 20%, $secondary-color, 80%, $primary-letter-color-dark);
     color:  $primary-letter-color;
-    font-family: 'Staatliches', cursive;
 }
 
 .navbar {
