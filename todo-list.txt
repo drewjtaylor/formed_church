@@ -1,22 +1,25 @@
 Make the "Book club" link go to a page describing the book club, instead of immediately downloading the guide.
 Then on the book club page there could be a download link.
 
-Each option on the navbar should lead to a new page. Some are still blank
-
-Make carousel full-width. (container-fluid?)
+Each option on the navbar should lead to a new page. Some still need content filled in.
 
 fix main page image getting giant on small view ports (set to smaller col, then regular col on higher sizes?)
 
-center "Taylormade webdesign at the bottom
 
 The underline tries to show up on the main icon when hovering (like a link). Get rid of that. (but maybe have the color slightly darken, like the navbar)
 
-Carousel on main page looks terrible on small viewports
+Google map embed on "meetingtimes.html" is not yet responsive.
 
-Decide on which footer to use
 
-Phone number in footer does a weird thing at certain viewport widths
+
+
+
+
+
 
 Final steps:
 
-Go through each page--make sure nav links for active page are listed appropriately.
+One final time, copy the top and bottom of the index page and paste it into all other pages.
+(Basically, only ever make changes to these areas on "index.html", then use that as a base.)
+
+Go through EACH page--make sure nav links for active page are listed appropriately.
