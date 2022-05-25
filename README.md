@@ -34,3 +34,7 @@ Design elements aside, it is a simple bootstrap form with added checkboxes so th
 I stumbled upon what a "favicon" is when I noticed my browser was failing to load it. Apparently that's what the thing up on your browswer tab is called when a site has a custom image. There are several "favicon" creators out there that help easily make a small image that's just the right size.
 
 I also accidentally changed a font to be slightly darker at one point. I ended up using this with the navbar links on "hover," to give a little visual feedback to what is being selected. This is another one of those small details I never actively thought about, but good websites frequently incorporate into their design.
+
+### Using SASS variables
+
+The "style.scss" file uses variables to set up a color palette for the rest of the pages. I also created custom classes to quickly apply these colors to text or backgrounds.
