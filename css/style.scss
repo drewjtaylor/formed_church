@@ -190,11 +190,13 @@ $tertiary-font: 'Caveat', cursive;
     font-weight: bold;
 }
 
+
 .parallax {
     /* The image used */
     background-image: url("../img/assist-tampa-600x401.jpg");
   
     /* Set a specific height */
+    min-height: 400px;
 
     // Makes the width extend beyond container for the effect
 

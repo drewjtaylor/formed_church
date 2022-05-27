@@ -136,6 +136,7 @@
   /* The image used */
   background-image: url("../img/assist-tampa-600x401.jpg");
   /* Set a specific height */
+  min-height: 400px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
