@@ -35,6 +35,9 @@ I stumbled upon what a "favicon" is when I noticed my browser was failing to loa
 
 I also accidentally changed a font to be slightly darker at one point. I ended up using this with the navbar links on "hover," to give a little visual feedback to what is being selected. This is another one of those small details I never actively thought about, but good websites frequently incorporate into their design.
 
+I found a tool for generating HTMl for an embedded Google Map, and added it to the page regarding church meetings. The site can be found at https://google-map-generator.com/.
+
 ### Using SASS variables
 
 The "style.scss" file uses variables to set up a color palette for the rest of the pages. I also created custom classes to quickly apply these colors to text or backgrounds.
+
