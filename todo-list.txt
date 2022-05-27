@@ -1,12 +1,8 @@
 Make the "Book club" link go to a page describing the book club, instead of immediately downloading the guide.
 Then on the book club page there could be a download link.
 
-Each option on the navbar should lead to a new page. Some still need content filled in.
+Each option on the navbar should lead to a new page. Some still need content filled in. (ourmission, whatwebelieve)
 
-fix main page image getting giant on small view ports (set to smaller col, then regular col on higher sizes?)
-
-
-The underline tries to show up on the main icon when hovering (like a link). Get rid of that. (but maybe have the color slightly darken, like the navbar)
 
 Google map embed on "meetingtimes.html" is not yet responsive.
 
