@@ -189,3 +189,18 @@ $tertiary-font: 'Caveat', cursive;
 .form-label {
     font-weight: bold;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/assist-tampa-600x401.jpg");
+  
+    /* Set a specific height */
+
+    // Makes the width extend beyond container for the effect
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
