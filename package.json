@@ -4,9 +4,10 @@
     "description": "This is a website being created for 'Formed Church', a new church being started in St. Pete, Florida",
     "main": "index.html",
     "scripts": {
-        "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+        "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copyfiles && npm run usemin",
         "clean": "rimraf dist",
         "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/webfonts && copyfiles -f node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts",
+        "copyfiles": "copyfiles That-Man-Called-Jesus.pdf dist",
         "imagemin": "imagemin img/* -o dist/img",
         "lite": "lite-server",
         "start": "npm run watch:all",
