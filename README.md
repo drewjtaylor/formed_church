@@ -3,17 +3,15 @@
 
 The goal of this project is to create a website for a new church in our area. In the future, at the time this is being written, I have an upcoming React class. I anticipate this "bootstrap-only" version will essentially be a first draft, and the React version will upgrade this project.
 
-### Streamlined deployment preparation
+### CI/CD deployment
 
 This project is a simple, static, bootstrap-styled set of web pages. Since there is no server, the back-end design is theoretical.
 
-That being said, the deployment of the site has been streamlined. After changes have been made to any content, running `npm run build` will do the following:
-empty out the previous contents of the "dist" folder
-compress image files
-copy necessary assets/fonts to dist folder
-uglify files (remove whitespace, change variables from whole words to arbitrary single characters)
-
-Then the dist folder gets dropped off in a hosting site (Netlify in my case), and it's good to go!
+That being said, the deployment of the site has been streamlined. After changes have been made to any content, pulling those changes into the main branch on github will cause netlify to run `npm run build`, which will do the following:
+- empty out the previous contents of the "dist" folder
+- compress image files
+- copy necessary assets/fonts to dist folder
+- uglify files (remove whitespace, change variables from whole words to arbitrary single characters)
 
 The full code set up to run on `npm run build` is as follows:
 
