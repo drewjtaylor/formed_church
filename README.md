@@ -3,6 +3,34 @@
 
 The goal of this project is to create a website for a new church in our area. In the future, at the time this is being written, I have an upcoming React class. I anticipate this "bootstrap-only" version will essentially be a first draft, and the React version will upgrade this project.
 
+### Streamlined deployment preparation
+
+This project is a simple, static, bootstrap-styled set of web pages. Since there is no server, the back-end design is theoretical.
+
+That being said, the deployment of the site has been streamlined. After changes have been made to any content, running `npm run build` will do the following:
+empty out the previous contents of the "dist" folder
+compress image files
+copy necessary assets/fonts to dist folder
+uglify files (remove whitespace, change variables from whole words to arbitrary single characters)
+
+Then the dist folder gets dropped off in a hosting site (Netlify in my case), and it's good to go!
+
+The full code set up to run on `npm run build` is as follows:
+
+    "scripts": {
+            "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copyfiles && npm run usemin",
+            "clean": "rimraf dist",
+            "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/webfonts && copyfiles -f node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts",
+            "copyfiles": "copyfiles That-Man-Called-Jesus.pdf dist",
+            "imagemin": "imagemin img/* -o dist/img",
+            "lite": "lite-server",
+            "start": "npm run watch:all",
+            "test": "echo \"Error: no test specified\" && exit 1",
+            "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin meetingtimes.html -d dist --htmlmin -o dist/meetingtimes.html && usemin ourmission.html -d dist --htmlmin -o dist/ourmission.html && usemin staff.html -d dist --htmlmin -o dist/staff.html && usemin whatwebelieve.html -d dist --htmlmin -o dist/whatwebelieve.html && usemin whyformedchurch.html -d dist --htmlmin -o dist/whyformedchurch.html && usemin js/intersection-observer.js -d dist -o dist/js/intersection-observer.js",
+            "scss": "node-sass -o css/ css/",
+            "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+            "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+
 ### Home page
 
 The home page greets visitors with a jumbotron-style banner at the top with the church name and logo (currently a placeholder created using font-awesome icons until the church-founder creates some branding content).
