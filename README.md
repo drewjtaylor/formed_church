@@ -1,7 +1,7 @@
 # "Formed Church" Website
 ## Author: Andrew Taylor
 
-The goal of this project is to create a website for a new church in our area. In the future, at the time this is being written, I have an upcoming React class. I anticipate this "bootstrap-only" version will essentially be a first draft, and the React version will upgrade this project.
+The goal of this project is to create a website for a new church in our area. I created this "bootstrap-only" version essentially as a first draft in anticipation of an upcoming course on React. This was later redone as "Formation Church," but I believe there is still value in showing this project.
 
 ### CI/CD deployment
 
@@ -65,3 +65,9 @@ I found a tool for generating HTMl for an embedded Google Map, and added it to t
 ### Using SASS variables
 
 The "style.scss" file uses variables to set up a color palette for the rest of the pages. I also created custom classes to quickly apply these colors to text or backgrounds.
+
+### Closing thoughts
+
+After all is said and done, I think I lean towards "back end" disciplines a little more. At the time I'm writing these closing thoughts, I finished my coding bootcamp and have some more exposure. I did enjoy some aspects of visually designing a site, but I did find it difficult to just answer the question, "What do I want it to look like?"
+
+Thankfully, the friend who is trying to start this church is much more of a visual person, and I enjoy taking someone else's vision and figuring out how to make it a reality.
